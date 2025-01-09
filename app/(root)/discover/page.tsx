@@ -1,7 +1,9 @@
-import React from 'react'
+import React from "react";
 
 export default function DiscoverPage() {
   return (
-    <div>DiscoverPage</div>
-  )
+    <div>
+      <h1 className="font-bold text-20 text-white-1"> Discover podcasts</h1>
+    </div>
+  );
 }
