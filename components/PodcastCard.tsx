@@ -10,6 +10,7 @@ export default function PodcastCard({imgUrl, title, description, podcastId} : {i
                 width={175}
                 height={175}
                 alt={title}
+                className="aspect_square h-fit w-full rounded-xl 2xl:size-[200px]"
                 />
                 <div className="flex flex-col">
                     <h1 className="text-16 truncate font-bold text-white-1">{title}</h1>
